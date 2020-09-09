@@ -1,10 +1,10 @@
 # Cloudwatch Alarms with SNS topic
 
-This repository contains the following set-up:
+This repository contains the following set up:
 
-- Cloudwatch alarms resources to be created based on the lambda name function.
-- SNS topic that will be triggered by the the alarm
-- Lambda-alarm that will send the message received from SNS to a Discord channel that has a WEBHOOK_URL
+- Cloudwatch alarms resources to be created based on the lambda name.
+- SNS topic that will be triggered by the alarm
+- Lambda-alarm that will send the message received from SNS to a Discord channel through a WEBHOOK_URL
 
 ## Files
 
