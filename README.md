@@ -8,11 +8,11 @@ This repository contains the following set up:
 
 ## Files
 
-- lambda/ : Contains the lambda-alarm zip code that is stored in s3
-- sns.tf: creates SNS topic
-- iam.tf: Lambda permission
-- lambda-alarm: Containes lambda-alarm tf file
-- cloudwatch.tf: creates alarms
+- `lambda/` : Contains the lambda-alarm zip code that is stored in s3
+- `sns.tf`: creates SNS topic
+- `iam.tf`: Lambda permission
+- `lambda-alarm`: Containes lambda-alarm tf file
+- `cloudwatch.tf`: creates alarms
 
 ## Usage
 
