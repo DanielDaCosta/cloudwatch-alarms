@@ -21,7 +21,7 @@ terraform apply -var-file="variables.tfvars"
 ```
 
 ### Cloudwatch alarms
-In this example, the service that is being monitored is: aws lambda, but you can easily use it to monitor others services (SQS, ECS, ...).
+In this example, the service that is being monitored is: `aws lambda`, but you can easily use it to monitor others services (SQS, ECS, ...).
 
 If you'd like to add a new lambda to me monitored you just have to add it in the following local variable:
 ```
@@ -49,4 +49,4 @@ locals {
 You will just have to create a SNS topic and link it with your lambda-alarm.
 
 ### Lambda-Alarm
-This lambda zip is stored in an s3 bucket. You can find the code for the lambda inside the folder `lambda`
+This lambda zip is stored in a s3 bucket. You can find the code for the lambda inside the folder `lambda`
