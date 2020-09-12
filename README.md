@@ -50,3 +50,7 @@ You will just have to create a SNS topic and link it with your lambda-alarm.
 
 ### Lambda-Alarm
 This lambda zip is stored in a s3 bucket. You can find the code for the lambda inside the folder `lambda`
+
+## Medium Post
+
+More details on my Medium Post: [Discord notification using CloudWatch Alarms, SNS and AWS Lambda](https://towardsdatascience.com/discord-notification-using-cloudwatch-alarms-sns-and-aws-lambda-71393861699f)
