@@ -49,7 +49,7 @@ locals {
 You will just have to create a SNS topic and link it with your lambda-alarm.
 
 ### Lambda-Alarm
-This lambda zip is stored in a s3 bucket. You can find the code for the lambda inside the folder `lambda`
+This lambda zip is stored in a s3 bucket. You can find lambda's code inside the folder `lambda`
 
 ## Medium Post
 
