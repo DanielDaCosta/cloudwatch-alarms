@@ -1,6 +1,6 @@
 # Cloudwatch Alarms with SNS topic
 
-This repository contains the following set up:
+This repository contains the following topics:
 
 - Cloudwatch alarms resources to be created based on the lambda name.
 - SNS topic that will be triggered by the alarm
