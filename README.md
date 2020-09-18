@@ -8,7 +8,7 @@ This repository contains the following topics:
 
 ## Files
 
-- `lambda/` : Contains the lambda-alarm zip code that is stored in s3
+- `lambda/*` : Contains the lambda-alarm zip code that is stored in s3
 - `sns.tf`: creates SNS topic
 - `iam.tf`: Lambda permission
 - `lambda-alarm`: Containes lambda-alarm tf file
