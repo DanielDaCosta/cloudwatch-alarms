@@ -54,3 +54,9 @@ This lambda zip is stored in a s3 bucket. You can find lambda's code inside the 
 ## Medium Post
 
 More details on my Medium Post: [Discord notification using CloudWatch Alarms, SNS and AWS Lambda](https://towardsdatascience.com/discord-notification-using-cloudwatch-alarms-sns-and-aws-lambda-71393861699f)
+
+## References
+- https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/ConsoleAlarms.html
+- https://discord.com/developers/docs/resources/channel#embed-limits
+- https://docs.aws.amazon.com/lambda/latest/dg/monitoring-metrics.html
+- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_metric_alarm
