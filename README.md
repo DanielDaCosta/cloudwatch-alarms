@@ -24,7 +24,7 @@ terraform apply -var-file="variables.tfvars"
 In this example, the service that is being monitored is: `aws lambda`, but you can easily use it to monitor others services (SQS, ECS, ...).
 
 If you'd like to add a new lambda to me monitored you just have to add it in the following local variable:
-```
+```terraform
 locals {
   name_dash = "${var.name}-${var.environment}"
   # Lambda with Alarms
