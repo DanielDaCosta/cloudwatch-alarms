@@ -16,7 +16,7 @@ This repository contains the following topics:
 
 ## Usage
 
-```
+```bash
 terraform apply -var-file="variables.tfvars"
 ```
 
