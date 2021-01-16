@@ -4,10 +4,9 @@ This repository contains the following topics:
 
 - Cloudwatch alarms resources to be created based on the lambda name.
 - SNS topic that will be triggered by the alarm
-- Lambda-alarm that will send the message received from SNS to a Discord channel through a WEBHOOK_URL
+- Lambda-alarm that will send the message received from SNS to a Discord channel through a *WEBHOOK_URL*
 
 ## Files
-
 - `lambda/*` : Contains the lambda-alarm zip code that is stored in s3
 - `sns.tf`: creates SNS topic
 - `iam.tf`: Lambda permission
@@ -52,7 +51,6 @@ You will just have to create a SNS topic and link it with your lambda-alarm.
 This lambda zip is stored in a s3 bucket. You can find lambda's code inside the folder `lambda`
 
 ## Medium Post
-
 More details on my Medium Post: [Discord notification using CloudWatch Alarms, SNS and AWS Lambda](https://towardsdatascience.com/discord-notification-using-cloudwatch-alarms-sns-and-aws-lambda-71393861699f)
 
 ## References
