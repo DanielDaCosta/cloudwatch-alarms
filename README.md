@@ -7,7 +7,7 @@ This repository contains the following topics:
 - Lambda-alarm that will send the message received from SNS to a Discord channel through a *WEBHOOK_URL*
 
 ## Files
-- `lambda/*` : Contains the lambda-alarm zip code that is stored in s3
+- `lambda/*`: Contains the lambda-alarm zip code that is stored in s3
 - `sns.tf`: creates SNS topic
 - `iam.tf`: Lambda permission
 - `lambda-alarm`: Containes lambda-alarm tf file
