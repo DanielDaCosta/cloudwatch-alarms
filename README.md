@@ -20,7 +20,7 @@ terraform apply -var-file="variables.tfvars"
 ```
 
 ### CloudWatch alarms
-In this example, the service that is being monitored is: `AWS Lambda`, but you can easily use it to monitor others services (SQS, ECS, ...).
+In this example, the service that is being monitored is: `AWS Lambda`, but you can easily use it to monitor others services (SQS, ECS, EC2, ...).
 
 If you'd like to add a new lambda to me monitored you just have to add it in the following local variable:
 ```terraform
